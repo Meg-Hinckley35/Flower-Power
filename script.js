@@ -1,21 +1,46 @@
 //Prompt User for password criteria
-var length = prompt("Your password must be between 8-128 characters. How many characters would you like your password to be?");
-var yes = ["y","n"];
-var uppercase = prompt("Do you want to add Uppercase characters?", yes);
-var lowercase = prompt("Do you want to add lowercase?", yes);
-var numbers = prompt("Do you want to add numbers?", yes);
-var special = prompt("Do you want to add special characters?", yes);
+var uppercase = prompt("Include Uppercase characters?"); {
+  ans = confirm('Yes');
+  if (confirm) {
+    //if yes include Uppercase characters
+  } else {
+    //if no don't include Uppercase characters
+  }
+}
+var lowercase = prompt("Include lowercase characters?");{
+  ans = confirm('Yes');
+  if (ans = "OK") {
+    //if yes include lowercase characters
+  } else {
+    //if no don't include lowercase characters
+
+  }
+}
+var numbers = prompt(" Include numbers?");{
+  ans = confirm('Yes');
+  if (ans) {
+    //if yes include numbers
+  } else {
+    //if no don't include numbers
+  }
+}
+var special = prompt("Include special characters?"); {
+  ans = confirm('Yes');
+  if (ans) {
+    //if yes include special characters
+  } else {
+    //if no don't include special characters
+  }
+}
 
 
 
 function generatePassword() {
-    var characters = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var passwordLength = 30
-    var passGen = "";
-    for (var i = 0; i <= passwordLength; i++) {
-        var randomNumber = Math.floor(Math.random() * characters.length);
-        passGen += characters.substring(randomNumber, randomNumber +1);
-    }
+    var alphaLow = "abcdefghijklmnopqrstuvwxyz";
+    var alphaUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var numerics = "01234567890"
+    var symbols = "!@#$%^&*()_-+="
+    
 }
 
 
