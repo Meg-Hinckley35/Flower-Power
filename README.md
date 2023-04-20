@@ -1,6 +1,6 @@
 # Flower-Power
 
-[Password Generator](/Users/meganmccartney/bootcamp/Bootcamp/Flower-Power/password.html)
+[Password Generator](https://meg-hinckley35.github.io/Flower-Power/password.html)
 
 On this page, you may generate a random password.
 
