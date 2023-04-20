@@ -1,4 +1,7 @@
 # Flower-Power
+
+file:///Users/meganmccartney/bootcamp/Bootcamp/Flower-Power/password.html
+
 On this page, you may generate a random password.
 
 First we set the generate password button to a variable.
